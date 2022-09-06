@@ -1,0 +1,14 @@
+bgEnvId=243d0ce0-0e7d-4b3a-a799-b1e044e37ee2	
+targetEnvId=3846900f-e440-4dae-810c-4b38c5e9172d
+targetRTFClusterName=aws-us-east1-np
+targetEnvName=Non-Prod
+targetHostName=np.api.us01e.bayer.com
+apiUri=http://vc-commercial-price-api-dev.mcf-np.local(bakendURl)
+publicUrl=http://np.api.us01e.bayer.com/dev/value-capture/(.*)
+apiName=value-vc-commercial-price
+apiVersion=1.0.0(raml vesrion)
+rtfAppName=value-vc-commercial-price-np
+cpuReserved=70m
+cpuMax=200m
+memory=1024Mi
+createAsset=NO
